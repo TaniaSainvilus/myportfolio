@@ -7,58 +7,162 @@
     <link rel = "stylesheet"
     href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel = "stylesheet"
-    href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-  
+    href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet"> 
+    
+    <link rel = "stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <!-- link fonts -->
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <!-- <img src = //> -->
+        <div class="main">
+            <img src="images/plant.jpg" alt="">
         </div>
-        <button class="navigation">
+        <div id="navbar">
+            <a href="#top-container">Home</a>
+            <a href="#main-container">About Me</a>
+            <a href="#container-skills">Skills</a>
+            <a href="#container-projects">My Projects</a>
+            <a href="#news">Tech Sites That I Follow</a>
+            <a href="#contact">Contact</a>
+        <!-- <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
-        </button>
-        <nav classs="nav">
-            <ul class="nav list"></u>
-                <li class="nav stuff"><a href = "#" class="nav link"> Home</a></li>
-                <li class="nav stuff"><a href = "#" class="nav link">About Me</a></li>
-                <li class="nav stuff"><a href = "#" class="nav link">Skills</a></li>
-                <li class="nav stuff"><a href = "#" class="nav link">AMy Projects</a></li>
-                <li class="nav stuff"><a href = "#" class="nav link">Tech Sites That I Follow</a></li>
-        </nav>
+        </button> -->
+        <!-- <div class="row"></div> -->
+        <!-- <nav class="nav">
+            <ul class="nav-list"></u>
+                <li class="nav-item"><a href = "#" class="nav-link"> Home</a></li>
+                <li class="nav-item"><a href = "#" class="nav-link">About Me</a></li>
+                <li class="nav-item"><a href = "#" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href = "#" class="nav-link">My Projects</a></li>
+                <li class="nav-item"><a href = "#" class="nav-link">Tech Sites That I Follow</a></li>
+        </nav> -->
+        </div>
+        </header>
     </header>
-    <section class = "introduction=-section" id="home">
-        <h1>Hey, my name is Tania Sainvilus</h1>
-        <p class ="section sub into">I am a Full-Stack Developer</p>
+    <section class="container" id="top-container">
+        <h1>Welcome, My name is Tania Sainvilus <span></span></h1>
+        <!-- <h1>My Name is <span></span></h1>
+        <h1>Tania Sainvilus <span></span></h1> -->
     </section>
-    <section class = "about me" id="me">
+    <section class="container" id="main-container">
         <h2 class = "aboutme-section">All About Me</h2>
         <p class = "section about"></p>
-        <div class = "body">
-            <p></p>
-            <p></p>
+        <div class = "about-body">
+            <p>I was born and raised in Brooklyn, NY, but currently live in Atlanta. I love The Big Apple, but The Peach state has my heart. </p>
+            <p>I love planting, hiking, listening to music, and travelling. However, most importantly of all, I love spending time with my family.  </p>
+            <p>I come from a professionsal background of healthcare, sales, marketing, and management. </p>
         </div>
-        <img src =>
+        <!-- <img src => -->
     </section>
-    <section class = "My Skills id= "skills" >
-        <h2 class="section-skills">What I do</h2>
+    <section class="container" id="container-skills">
+        <h2 class="section-skills">My Skills</h2>
         <div class="skills">
             <div class= "skills">
-                <h3></h3>
-                <p></p>    
+                <h3>Languages and Frameworks</h3>
+                <p>Python | JavaScript | JQuery | Node | Express | AJAX | HTML | CSS, Bootstrap, SQL, Socket.IO, JSON, React
+                </p>    
             </div>
             <div class="skills">
-                <h3></h3>
-                <p></p> 
+                <h3>Management & Deployment</h3>
+                <p>Git | GitHub | Heroku | Command Line</p> 
             </div>
             <div class="skills">
-                <h3></h3>
-                <p></p> 
+                <h3>Methodologies</h3>
+                <p>Object Oriented Programming | MVC Pattern | Test-Driven Development | Responsive Design | Authentication | User Stories | Wireframing | Agile Development/Scrum</p> 
             </div>
-            <a href = "#projects" class="btn">My Projects</a>
     </section>
-    <section class = "My Projects" id="projects"
+    <section class="container" id="container-projects">
+        <h2 class = "projectstitle">My Projects</h2>
 
+        <div class = "portfolio">
+            <a href = "#" class= "projectlist" >
+                <!-- <img src = "" alt ="" class=""> -->
+            </a>
+            <a href = "#" class= "projectlist" >
+                <!-- <img src = "" alt ="" class=""> -->
+            </a>
+            <a href = "#" class= "projectlist" >
+                <!-- <img src = "" alt ="" class=""> -->
+            </a>
+            <a href = "#" class= "projectlist" >
+                <!-- <img src = "" alt ="" class=""> -->
+            </a>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact container">
+          <div><h2 class="section-title">Contact <span>Me</span></h1></div>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-info">
+                <h3>Phone</h1>
+                <p>404-748-8748</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-info">
+                <h3>Email</h1>
+                <p>sainvilust@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-info">
+                  <h3>GitHub</h1>
+                  <p>"https://github.com/TaniaSainvilus"</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-info">
+                  <h3>LinkedIn</h1>
+                  <p>"https://www.linkedin.com/in/taniasainvilus"</p>
+                </div>
+              </div>
+            <div class="contact-item">
+              <div class="contact-info">
+                <h3>City</h1>
+                <p>Atlanta, GA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container" id = "contact-box">
+        <h3>Contact Form</h3>
+        <form action="#" name="contact_form">
+            <label for="first_name">First Name</label>
+            <input name="first_name" type="text" required placeholder="John"/>
+            <br>
+            <label for="last_name">Last Name</label>
+            <input name="last_name" type="text" required placeholder="Doe"/>
+            <br>
+            <label for="email">Email</label>
+            <input name="email" type="email" required placeholder="you@domain.com"/>
+            <br>
+            <label for="message">Message</label><br>
+            <textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
+            <div class="center">
+                <input type="submit" value="Submit">
+            </div>
+        </form>	
+    </div>
+    <!-- <footer id="social-media" class="container-fluid">
+        <section class="container text-muted text-center py-3 mt-5">
+        <a href = "mailto:sainvilust@gmail.com" class="footer-link">sainvilust@gmail.com</a>
+        <ul class="socialmedialinks">
+            <li class= "socialMediaList"><a class="socialmedialinks" href= "https://www.linkedin.com/in/taniasainvilus"></a></li>
+            <li class= "socialmedialist"><a class="socialmedialinks" href= "https://github.com/TaniaSainvilus"></a></li>
+        </ul>
+        </section>
+    </footer> -->
+
+<script src = "js/index.js"></script>
+    
 </body>
 </html>

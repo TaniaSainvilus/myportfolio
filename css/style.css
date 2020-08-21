@@ -1,6 +1,6 @@
-@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap'
+/* @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap' */
 
-/* Global Properties */
+
 html {
     scroll-behavior: smooth;
 } 
@@ -8,20 +8,69 @@ html {
 body {
     background: black;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: scroll;
+    object-fit: cover;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
 }
-  
+#top-pic {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+    background:url(../images/plant.jpg) no-repeat;
+    background-size:100% 100%;
+            background-repeat: no-repeat;
+  }
+
+.cover {object-fit: cover;}
+
+.main {
+    position: relative;
+}
+
+#welcome {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+   width: auto;
+}
 .container {
-    height: 100vh;
+    height: auto;
     overflow: hidden;
     text-align: center;
 	align-items: center;
     justify-content: center;
+    margin: 0 auto;
+   
+}
+
+.container-large {
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+	align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+   
 }
 
 .aboutme-section {
     display: flex;
 	align-items: center;
     justify-content: center;
+    padding-top: 50px;
+    height: auto;
+}
+
+#picture {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 50%;
+     
 }
 #top-container {
     position: relative;
@@ -46,6 +95,8 @@ img {
 #navbar {
     overflow: hidden;
     background-color: #333;
+    position: fixed;
+    top: 0px;
   }
   
   /* Navbar links */
@@ -84,76 +135,89 @@ h3 {
 	text-align: center;
 }
 
-/* Add styles to 'container' class */
-#contact-box {
-	padding: 20x 24px 24px 24px;
-	margin: 48px 12px;
-	background: #E3F2FD;
-    border-radius: 4px;
-    justify-content: center;
-}
+#container-skills {
+    background-color: #333;
+    color: #f2f2f2;
+    height: auto;
 
-/* Add styles to 'label' selector */
-label {
-	font-size: 0.85em;
-	margin-left: 12px;
 }
-
-/* Add styles to 'input' and 'textarea' selectors */
-input[type=text],input[type=email], textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-/* Add styles to show 'focus' of selector */
-input[type=text]:focus,input[type=email]:focus, textarea:focus {
-	border: 1px solid black;
-}
-
-/* Add styles to the submit button */
-input[type=submit] {
-	background: black;
-	margin: 0 auto;
-	outline: 0;
-	color: white;
-	border: 0;
-	padding: 12px 24px;
-	border-radius: 4px;
-	transition: all ease-in-out 0.1s;
-	position: relative;
-	display: inline-block;
-	text-align: center;
-}
-
-/* Add styles for 'focus' property */
-input[type=submit]:focus {
-	background: black;
-	color: whitesmoke;
-}
-
-/* Style 'hover' property */
-input[type=submit]:hover {
-	background: black;
-}
-
-/* Align items to center of the 'div' with the class 'center' */
-.center {
-	text-align: center;
-}
-
 /* 
-body {
-   background-color: white;
-    color: teal;
-    margin: 0;
-    font-family: arial;
-    font-family: 'Shadows Into Light Two', cursive;
-    
-} 
- */
+//Projects  */
+#container-projects {
+    padding-top: 50px;
+}
+
+.contact {
+    background: #333;
+    color: #f2f2f2;
+    height: auto;
+}
+
+.zoom:hover {
+    transition-duration: .2s;
+    transform: scale(1.03);
+}
+
+.recentprojects {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap:60px;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #979494;
+  }
+
+.projborder {
+    border: 2px solid rgb(206, 206, 206);
+    border-radius: 8px;
+    padding: 3.5px;
+}
+
+.recentprojects div {
+    background-color: #ffffff;
+    text-align: center;
+  }
+ 
+.projectdescription {
+    font: 15px 'Roboto', sans-serif;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    justify-content: ce;
+}
+
+  .headingtitle, .headingtitletop {
+    font: 20px 'Open Sans Condensed', sans-serif;
+    color: #2e2d2d;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+a.projectbutton {
+    display: inline-block;
+    padding: 5px 11px;
+    border: 1px solid #979494;
+    margin:0 1px 1px 0;
+    border-radius: 0.1px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    color:#333333;
+    text-align:center;
+    transition: all 0.2s;
+    }
+
+a.projectbutton:hover {
+    font-weight: bold;
+    }
+
+
+
+
+
+
+

@@ -21,12 +21,13 @@ body {
     max-height: 100%;
     margin: 0;
     padding: 0;
-    background:url(../images/plant.jpg) no-repeat;
-    background-size:100% 100%;
-            background-repeat: no-repeat;
+    /* background:url('images/plant.jpg'); */
   }
 
-.cover {object-fit: cover;}
+.cover {
+    object-fit: cover;
+}
+
 
 .main {
     position: relative;
@@ -35,8 +36,9 @@ body {
 #welcome {
     position: absolute;
     left: 20%;
-    top: 50%;
-   width: auto;
+    top: 40%;
+    width: auto;
+    font-weight: bold;
 }
 .container {
     height: auto;
@@ -57,7 +59,7 @@ body {
     margin: 0 auto;
    
 }
-
+c
 .aboutme-section {
     display: flex;
 	align-items: center;
@@ -144,7 +146,7 @@ h3 {
 /* 
 //Projects  */
 #container-projects {
-    padding-top: 50px;
+    padding-top: 50x;
 }
 
 .contact {
@@ -161,7 +163,7 @@ h3 {
 .recentprojects {
     display: grid;
     grid-template-columns: auto auto;
-    grid-row-gap:60px;
+    grid-row-gap: 30px;
     width: 100%;
     padding: 10px;
     background-color: #ffffff;
@@ -177,6 +179,7 @@ h3 {
 .recentprojects div {
     background-color: #ffffff;
     text-align: center;
+    padding: 10px;
   }
  
 .projectdescription {
@@ -185,7 +188,7 @@ h3 {
     padding-left: 15%;
     padding-right: 15%;
     text-align: center;
-    justify-content: ce;
+    justify-content: center;
 }
 
   .headingtitle, .headingtitletop {
@@ -198,10 +201,10 @@ h3 {
 
 a.projectbutton {
     display: inline-block;
-    padding: 5px 11px;
+    padding: 5px 10px;
     border: 1px solid #979494;
     margin:0 1px 1px 0;
-    border-radius: 0.1px;
+    border-radius: 8px;
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Open Sans Condensed', sans-serif;

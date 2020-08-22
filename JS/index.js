@@ -18,7 +18,7 @@ function myFunction() {
 
 
 
-
+//Contact Form --- work in progress
 // const navToggle = document.querySelector('.nav-toggle');
 // const navLinks = document.querySelectorAll('.nav-link')
 

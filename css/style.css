@@ -74,6 +74,11 @@ c
     border-radius: 50%;
      
 }
+.picborder {
+    border: 2px solid rgb(206, 206, 206);
+    border-radius: 8px;
+    padding: 3.5px;
+}
 #top-container {
     position: relative;
     min-height: 100vh;

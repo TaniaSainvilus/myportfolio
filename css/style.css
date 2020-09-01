@@ -17,11 +17,9 @@ body {
 }
 #top-pic {
     width: 100%;
-    height: 100%;
-    max-height: 100%;
+    height: auto;
     margin: 0;
     padding: 0;
-    /* background:url('images/plant.jpg'); */
   }
 
 .cover {
@@ -39,6 +37,8 @@ body {
     top: 40%;
     width: auto;
     font-weight: bold;
+    color: #2e2d2d;
+    font-family: 'Petit Formal Script', cursive;
 }
 .container {
     height: auto;
@@ -47,6 +47,8 @@ body {
 	align-items: center;
     justify-content: center;
     margin: 0 auto;
+    width: 100%;
+
    
 }
 
@@ -59,7 +61,10 @@ body {
     margin: 0 auto;
    
 }
-c
+
+.main-bar {
+    padding-bottom: 0px;
+}
 .aboutme-section {
     display: flex;
 	align-items: center;
@@ -135,7 +140,7 @@ img {
 }
 
 body {
-	background: #263238;  /* Set background color to #263238*/
+	background: #263238; 
 }
 
 h3 {
@@ -165,6 +170,9 @@ h3 {
     transform: scale(1.03);
 }
 
+.block {
+    height: 200px;
+}
 .recentprojects {
     display: grid;
     grid-template-columns: auto auto;
@@ -179,12 +187,15 @@ h3 {
     border: 2px solid rgb(206, 206, 206);
     border-radius: 8px;
     padding: 3.5px;
+    height: 200px;
+    padding-top: 0px;
 }
 
 .recentprojects div {
     background-color: #ffffff;
     text-align: center;
     padding: 10px;
+    height: auto;
   }
  
 .projectdescription {
@@ -202,6 +213,8 @@ h3 {
     font-weight: bold;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 a.projectbutton {
